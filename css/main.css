@@ -19,7 +19,7 @@ a:hover{
   height: 100vh;
 }
 #experience{
-  margin-top: 10%;
+  padding-top: 8%;
   height: 100vh;
 }
 #mainNav{
@@ -38,7 +38,7 @@ h1{
   letter-spacing: 5px;
 }
 .my-auto{
-  margin-top: 12%;
+  padding-top: 10%;
 }
 li{
   font-size: 0.9em;
