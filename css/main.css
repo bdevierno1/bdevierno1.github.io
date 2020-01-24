@@ -19,12 +19,9 @@ a:hover{
   height: 100vh;
 }
 #experience{
-  padding-top: 10%;
+  margin-top: 10%;
   height: 100vh;
 }
-/* .container{
-  width: 90%;
-} */
 #mainNav{
   color:white;
   background-color: #0e0e0e;
@@ -41,7 +38,7 @@ h1{
   letter-spacing: 5px;
 }
 .my-auto{
-  padding-top: 12%;
+  margin-top: 12%;
 }
 li{
   font-size: 0.9em;
