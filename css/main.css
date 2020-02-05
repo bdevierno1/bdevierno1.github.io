@@ -1,7 +1,6 @@
 body {
     background: #0e0e0e;
 }
-
 body, html {
     width: 100%;
     height: 100%;
@@ -9,6 +8,9 @@ body, html {
     color: rgb(255,255,255);
     font-size: 1.2em;
 }
+#text{
+       text-align:center;
+    }
 a{
   color : white;
 }
@@ -18,9 +20,15 @@ a:hover{
 #section{
   height: 100vh;
 }
+#particles-js{
+  height: 33vh;
+}
 #experience{
   padding-top: 8%;
   height: 100vh;
+}
+#space{
+  height: 30vh;
 }
 #skills{
   height: 100vh;
@@ -55,13 +63,6 @@ h1{
 li{
   font-size: 0.9em;
 }
-
-
-
-
-
-
-
 
 * {
   box-sizing: border-box;
