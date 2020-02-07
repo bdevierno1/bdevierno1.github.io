@@ -65,15 +65,6 @@
               <!-- Script to Type my Name -->
               <div id="text"></div>
               <script type="text/javascript">
-                  // var typing_name = new Typed('#text',{
-                  // strings: [" Hi my name is Benjamin", "Hi my name is <strong>Benjamin!</strong> <br> I grew up in Singapore. I am currently a sophomore at the George Washington University majoring in Computer Science and expected to graduate in the year 2022. I am currently seeking an intership for the summer of 2020. <br> Thank You for taking the opportunity to learn more about me below."],
-                  // startDelay: 1000,
-                  // typeSpeed: 30,
-                  // backSpeed: 40,
-                  // smartBackspace: true,
-                  // backDelay: 500,
-                  // loop: false,
-                  // });
                   var typed = new Typed('#text', {
                     strings: ["Hi my name is Benjamin! <br> I grew up in Singapore. I am currently a sophomore at the George Washington University majoring in Computer Science and expected to graduate in the year 2022. I am currently seeking an intership for the summer of 2020.<br> Thank You for taking the opportunity to learn more about me below.<br>"],
                     typeSpeed: 30
@@ -229,11 +220,38 @@
             </p>
     		</div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="particles.js"></script>
 		<script src="app.js"></script>
+    <script>
+  $(document).ready(function(){
+// Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+    // Prevent default anchor click behavior
+  event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  } // End if
+  });
+});
+</script>
 
 </html>
