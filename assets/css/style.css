@@ -426,7 +426,7 @@ body {
 /* #SLIDESHOW - END */
 /* #RESPONSIVE - START*/
 /* Landscape */
-@media only screen and (max-device-width: 812px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1012px) and (orientation: landscape) {
   /* line 432, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #info .line,
   #info .about {
