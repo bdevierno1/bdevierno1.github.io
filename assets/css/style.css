@@ -454,7 +454,7 @@ body {
   }
   /* line 460, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slides-aux .slide-title {
-    font-size: 3rem;
+    font-size: 1rem;
   }
   /* line 465, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slider-nav {
@@ -465,7 +465,8 @@ body {
 @media only screen and (max-device-width: 680px) and (orientation: portrait) {
   /* line 473, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slides-aux .slide-title {
-    font-size: 2.5rem;
+    padding-top: 8rem;
+    font-size: 1rem;
   }
   /* line 478, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slider-nav {
