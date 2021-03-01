@@ -442,10 +442,11 @@ body {
   /* line 445, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slides-aux {
     top: 0;
+    width: 80%;
   }
   #slides-aux .slide-title {
     padding-top: 5rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 
