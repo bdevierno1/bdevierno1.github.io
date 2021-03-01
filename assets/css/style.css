@@ -101,7 +101,7 @@ body {
 #slides-aux {
   position: absolute;
   top: 10.25rem;
-  width: 80%;
+  width: 100%;
 }
 
 /* line 112, D:/WEB/Projects/Slider/assets/scss/style.scss */
@@ -118,7 +118,7 @@ body {
   position: relative;
   flex: 1 1 20%;
   padding: 2rem;
-  background-color: #fff;
+  background-color: #030303;
 }
 
 /* line 128, D:/WEB/Projects/Slider/assets/scss/style.scss */
@@ -129,7 +129,7 @@ body {
   transform-origin: 0% 0%;
   transform: rotate(90deg);
   color: transparent;
-  -webkit-text-stroke: 1px #030303;
+  -webkit-text-stroke: 1px #fff;
 }
 
 /* line 137, D:/WEB/Projects/Slider/assets/scss/style.scss */
@@ -227,13 +227,13 @@ body {
 
 /* line 228, D:/WEB/Projects/Slider/assets/scss/style.scss */
 #slider-nav .sep:after {
-  background-color: currentColor;
+  background-color: #fff;
   right: 0;
 }
 
 /* line 235, D:/WEB/Projects/Slider/assets/scss/style.scss */
 #slider-nav .total {
-  color: #030303;
+  color: #fff;
 }
 
 /* line 239, D:/WEB/Projects/Slider/assets/scss/style.scss */
@@ -260,7 +260,9 @@ body {
 
 /* line 262, D:/WEB/Projects/Slider/assets/scss/style.scss */
 #hero-slider .current,
-#hero-slider .sep:before {
+#hero-slider .sep:before,
+#hero-slider .sep:after,
+#hero-slider .total {
   opacity: 0;
   transition: opacity .4s 1.3s;
 }
@@ -314,7 +316,9 @@ body {
 
 /* line 308, D:/WEB/Projects/Slider/assets/scss/style.scss */
 #hero-slider.ready .current,
-#hero-slider.ready .sep:before {
+#hero-slider.ready .sep:before,
+#hero-slider.ready .sep:after,
+#hero-slider.ready .total {
   opacity: 1;
 }
 
