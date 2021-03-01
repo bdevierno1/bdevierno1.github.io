@@ -439,6 +439,10 @@ body {
   #slides-aux {
     top: 0;
   }
+  #slides-aux .slide-title {
+    padding-top: 5rem;
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
@@ -455,6 +459,7 @@ body {
   /* line 460, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slides-aux .slide-title {
     font-size: 1rem;
+    padding-top: 8rem;
   }
   /* line 465, D:/WEB/Projects/Slider/assets/scss/style.scss */
   #slider-nav {
