@@ -1,252 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fullscreen Slider Example</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Benjamin De Vierno</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="css/simple-line-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-    <!-- Script source for typing out the name -->
-    <script src="typed.js"></script>
-
-  </head>
-
-  <body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">DE VIERNO</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a class="page-scroll" href="#page-top">About Me</a></li>
-                  <li><a class="page-scroll" href="#skills">Skills</a></li>
-                  <li><a class="page-scroll" href="#experience">Experience</a></li>
-                  <li><a href="assets/Resume_BenjaminDeVierno.pdf" class="button" target="_blank">Resume</a></li>
-                  <li><a class="page-scroll" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<body>
+    <div id="hero-slider">
+        <div id="logo" class="mask">
+            <span class="logo-text masked">ACM GWU</span>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <div class="container-fluid p-0">
-
-    <!-- <div id="particles-js"> </div> -->
-      <div id="section">
-      <div class="container-fluid p-0">
-        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-          <div class="my-auto">
-            <h1 class="mb-0">BENJAMIN DE VIERNO</h1>
-            <br><br>
-              <!-- Script to Type my Name -->
-              <div id="text"></div>
-              <script type="text/javascript">
-                  var typed = new Typed('#text', {
-                    strings: ["Hi my name is Benjamin! I like to make things.<br>"],
-                    typeSpeed: 30
-                  });
-              </script>
-
-              <!-- script if user has javascript disabled -->
-              <noscript>
-                Hi my name is Benjamin!<br>
-              </noscript>
-
-
-            <ul class="list-inline list-social-icons mb-0">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/benjamin.devierno">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/benjamin-de-vierno-25113b131">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/bdevierno1">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/bendevierno/">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-      <div id="particles-js"></div>
-
-    <br><br><br><br>
-    <div id="experience">
-    		<div class="container">
-    				<div class="row">
-    						<div class="col-lg-8 col-lg-offset-2 text-center">
-                  <br><br>
-    							<h1 class="section-heading">EXPERIENCE</h1>
-    						</div>
-    				</div>
-            <br>
-            <p>SEAS UNDERGRADUATE RESEARCHER
-              <li>Contribute to the OpenNetVM project under Dr. Tim Wood to provide software-defined networking and network function virtualization with DPDK.</li>
-            </p>
-            <p>OPERATIONS OFFICER, SPECIAL OPS COMMAND SINGAPORE
-              <li>Served in the Singapore Police Force as part of national service requirement.</li>
-              <li>After receiving strong evaluations during basic training, selected for Officer Cadet School. Graduated with rank of Inspector.</li>
-              <li>Supervised the ’Ops Room’ in charge of dispatch and base security.</li>
-            </p>
-    				<div class="row">
-    						<div class="col-lg-8 col-lg-offset-2 text-center">
-    							<a href="assets/Resume_BenjaminDeVierno.pdf"  class="btn btn-default btn-xl sr-button">View Resume</a>
-    						</div>
-    				</div>
-    		</div>
+        <div id="slideshow">
+            <div id="slides-main" class="slides">
+                <div class="slide" data-index="0">
+                    <div class="abs-mask">
+                        <div class="slide-image" style="background-image: url(./assets/img/slide-1.jpg)"></div>
+                    </div>
+                </div>
+                <div class="slide" data-index="1"></div>
+                <div class="slide" data-index="2"></div>
+                <div class="slide" data-index="3">
+                    <div class="abs-mask">
+                        <div class="slide-image" style="background-image: url(./assets/img/slide-2.jpg)"></div>
+                    </div>
+                </div>
+                <div class="slide" data-index="4"></div>
+                <div class="slide" data-index="5"></div>
+                <div class="slide" data-index="6"></div>
+                <div class="slide" data-index="7">
+                    <div class="abs-mask">
+                        <div class="slide-image" style="background-image: url(./assets/img/slide-3.jpg)"></div>
+                    </div>
+                </div>
+                <div class="slide" data-index="8"></div>
+                <div class="slide" data-index="9"></div>
+            </div>
+            <div id="slides-aux" class="slides mask">
+                <div class="slide-title slide" data-index="0"></div>
+                <div class="slide-title slide" data-index="1">
+                    <p>I reached out to Dr. Wood during my Software Engineering course after reading one of his networking research papers. No doubt I got my full-time job due to the skills I learned in research. From server administration and python test automation to C network performance research, I've learned more in the last two years than I ever thought possible.</p>
+                    <a href="#">- Kevin Deems</a>
+                </div>
+                <div class="slide-title slide" data-index="2">
+                    <p>I am working in a team of 3 on network security with Docker containers. Our lab works with an Intel platform called DPDK to increase performance with networking data by bypassing the operating system kernel. We are extending this idea to ensure that each application client (or IP address) gets an isolated container to handle their request. This will prevent hackers that break the application from hurting other users on the same server. Hopefully we will write a paper at the end of the semester to publish our results!</p>
+                    <br><p>For younger students, CS professors and students always say that learning throughout your four undergrad years is exponential. Take advantage of every opportunity to learn from people older/more-experienced than you! Joining research was the best educational decision I made in college.</p>
+                    <a href="#">- Kevin Deems</a>
+                </div>
+                <div class="slide-title slide" data-index="3"></div>
+                <div class="slide-title slide" data-index="4">
+                    <p>I was interested in doing research with someone, as it seemed like a good experience. I definitely started earlier than is advised (freshman spring), but I have always preferred practical experience and thought it would be a good way to get some. I started working with Tim because several of the ACM eboard members at the time actively did research with him, and they made a good pitch about the work that he did.</p>
+                    <a href="#">- Pat Cody</a>
+                </div>
+                <div class="slide-title slide" data-index="5">
+                    <p>I think the two big takeaways from doing research with Tim were:</p>
+                    <p>Practical software engineering experience. The way you write code for a class vs. for a proper project are very different, and the way Tim ran his project is very similar to how code is written in industry. This made me way more effective at internships, because I was already familiar with the code review process.</p>
+                    <p>Networking experience (the technical kind): given that Tim's lab focuses on networking-related projects, I learned a great deal about how they work. Given how big the internet is, I think it is a really cool aspect of CS to study, and working on ONVM (his big project) gave me a ton of hands-on experience for a subject that can often be very dry.</p>
+                    <a href="#">- Pat Cody</a>
+                </div>
+                <div class="slide-title slide" data-index="6">
+                    <p>In addition to being a researcher for Tim, I also served as his sysadmin, as he uses a 50-machine Linux cluster in B2 of SEH for his work. This was a fantastic experience, and gave me a ton of practical knowledge about how Linux servers work, and how to run services on them. The experience of running the cluster is what made me choose to be a Production Engineer at Facebook, rather than a regular software engineer.</p>
+                    <p>It's also OK to do research and not want to go for a masters or a PhD, it depends on what you like about research (or don't like). Getting a variety of experiences allows you to compare and contrast what you liked about each of them. </p>
+                    <a href="#">- Pat Cody</a>
+                </div>
+                <div class="slide-title slide" data-index="7"></div>
+                <div class="slide-title slide" data-index="8">
+                    <p>Ran into Dr. Johnson at a research event, found his stuff interesting, and emailed him. He was super enthusiastic to involve an undergrad, so we set up a meeting and his stuff looked really cool so I started joining the team meetings.</p>
+                    <a href="#">- Richard Sear</a>
+                </div>
+                <div class="slide-title slide" data-index="9">
+                    <p>I've learned a lot about applying machine learning to a cool interdisciplinary area: computational social science. I've written so much code to apply ML experiments to our unique datasets. I think ML has a stigma of "just Googling stuff" and using prewritten code without really understanding it, but I've read a LOT of papers and written a LOT of my own code. Don't be fooled.</p>
+                    <p>I've done a lot of NLP over the last 1.5 years. I was author on a paper for work I did on topic modeling on anti-vaccine Facebook groups. Specifically, we used LDA over a couple different time periods to examine the different trends in topics discussed. This was a really cool project to me and it led into a bunch of other related work on other projects with this research team.</p>
+                    <a href="#">- Richard Sear</a>
+                </div>
+            </div>
+        </div>
+        <div id="info">
+            <div class="slider-title-wrapper">
+                <span class="line"></span>
+                <h1 class="slider-title">
+                    <span>Research at GWU</span>
+                </h1>
+            </div>
+        </div>
+        <nav id="slider-nav">
+            <span class="current">01</span>
+            <span class="sep"></span>
+            <span class="total">10</span>
+        </nav>
     </div>
-
-    <div id ="space"></div>
-    <br><br><br><br><br>
-    <div id="skills">
-    		<div class="container">
-    				<div class="row">
-    						<div class="col-lg-8 col-lg-offset-2 text-center">
-                  <br><br>
-    							<h1 class="section-heading">SKILLS</h1>
-    						</div>
-    				</div>
-            <br>
-            <p>SKILLS
-              <li>Languages: Java, HTML, CSS, C, Bash</li>
-              <li>Languages (Familiar): JavaScript, YML, PHP, Python</li>
-              <li>Software/Other: AWS, Linux/Unix Command line, Git, DPDK, GitHub Actions</li>
-            </p>
-    		</div>
-    </div>
-
-
-    <div id="contact">
-    		<div class="container">
-    				<div class="row">
-    						<div class="col-lg-8 col-lg-offset-2 text-center">
-                  <br><br>
-    							<h1 class="section-heading">CONTACT ME!</h1>
-    						</div>
-    				</div><br>
-            <ul class="list-inline list-social-icons mb-0">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/benjamin.devierno">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/benjamin-de-vierno-25113b131">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/bdevierno1">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/bendevierno/">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href = "mailto: bdevierno97@gwu.edu">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            </ul>
-            Mitchell Hall, 514 19th St NW, Washington, DC 20052<br>
-            USA
-            </p>
-    		</div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="particles.js"></script>
-		<script src="app.js"></script>
-    <script>
-  $(document).ready(function(){
-// Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-  // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
-    // Prevent default anchor click behavior
-  event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 800, function(){
-
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-    });
-  } // End if
-  });
-});
-</script>
+    <script src="./assets/js/main.js"></script>
+</body>
 
 </html>
