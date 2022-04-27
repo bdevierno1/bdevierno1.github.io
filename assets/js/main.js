@@ -100,7 +100,8 @@ function heroSlider() {
         handle: null,
         idle: true,
         activeIndex: -1,
-        interval: 20000
+        //turn off autoslider animations
+        interval: Infinity
     };
 
     const setHeight = function (holder, items) {
