@@ -180,7 +180,24 @@ function heroSlider() {
     }
     const keypress = function () {
         window.addEventListener('keydown', e => {
-            const direction = 'next'
+            var direction = 'next'
+            switch (e.code) {
+                case "ArrowLeft":
+                    // Left pressed
+                    direction = 'prev'
+                    break;
+                case "ArrowRight":
+                    // Right pressed
+                    break;
+                case "ArrowUp":
+                    // Up pressed
+                    break;
+                case "ArrowDown":
+                    // Down pressed
+                    break;
+            }
+            console.log(e.code)
+            console.log(e.key)
             stopAutoplay();
             changeSlide(direction);
         });
