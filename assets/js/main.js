@@ -181,7 +181,7 @@ function heroSlider() {
     }
     const keypress = function () {
         window.addEventListener('keydown', e => {
-            var direction = 'next'
+            var direction = null
             switch (e.code) {
                 case "ArrowLeft":
                     // Left pressed
@@ -189,6 +189,7 @@ function heroSlider() {
                     break;
                 case "ArrowRight":
                     // Right pressed
+                    direction = 'next'
                     break;
                 case "ArrowUp":
                     // Up pressed
