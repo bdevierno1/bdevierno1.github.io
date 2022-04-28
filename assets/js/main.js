@@ -100,7 +100,6 @@ function heroSlider() {
         handle: null,
         idle: true,
         activeIndex: -1,
-        //turn off autoslider animations
         interval: Infinity
     };
 
@@ -181,7 +180,7 @@ function heroSlider() {
     }
     const keypress = function () {
         window.addEventListener('keydown', e => {
-            var direction = null
+            var direction = 'next'
             switch (e.code) {
                 case "ArrowLeft":
                     // Left pressed
@@ -189,7 +188,6 @@ function heroSlider() {
                     break;
                 case "ArrowRight":
                     // Right pressed
-                    direction = 'next'
                     break;
                 case "ArrowUp":
                     // Up pressed
